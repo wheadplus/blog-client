@@ -5,6 +5,7 @@
       <h3>{{title}}</h3>
     <p><router-link :to="`/user/${user.id}`">{{user.username}}</router-link>发布于{{friendlyDate(createdAt)}}</p>
     </section>
+    <p> </p>
     <section class="article" v-html="markdown">
       <!-- article下的markdown内容 -->
       
