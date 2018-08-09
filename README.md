@@ -5,7 +5,9 @@
 ![项目介绍](https://i.loli.net/2018/08/09/5b6bfd88b03f7.gif)
 
 由于github不支持http接口，后端接口都为http，所以请求数据失败。具体效果如上图项目介绍.gif
+
 后面，我打算用阿里的rap2去模拟后端接口，再替换接口。
+
 ！[在线地址](https://wheadplus.github.io/vue-blog/dist/#/login)
 # 难点
 - 封装后端接口(user/blog)
@@ -21,7 +23,7 @@ vue.js最好的参考还是他的[官网](https://cn.vuejs.org/v2/guide/)
 - [grid参考](https://jirengu.github.io/css-you-should-know/zh-cn/a-complete-guide-css-grid-layout.html)
 
 # 结语
-这次最大的收获是，建立自己开发整个项目的流程sop
+这次最大的收获是，建立开发整个项目的流程sop
 - 部署项目、分模块
 - 封装后端接口
 - 完成每个模块的静态页面
