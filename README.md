@@ -9,7 +9,7 @@
 后面，我打算用阿里的rap2去模拟后端接口，再替换接口。
 
 ！[在线地址](https://wheadplus.github.io/vue-blog/dist/#/login)
-# 难点
+# 主要工作
 - 封装后端接口(user/blog)
 - grid布局
 - vuex的使用
