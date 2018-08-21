@@ -18,7 +18,7 @@ export default {
     methods: {
       showBlogs(){
         blog.getIndexBlogs({ page : this.page }).then(res=>{
-          console.log(res)
+          //console.log(res)
           this.blogs = res.data
           this.page = res.page
           this.total = res.total
@@ -27,7 +27,7 @@ export default {
       },
       handlePage(currentPage){
         blog.getIndexBlogs({ page : currentPage }).then(res=>{
-          console.log(res)
+          //console.log(res)
           this.blogs = res.data
           this.page = res.page
           this.total = res.total

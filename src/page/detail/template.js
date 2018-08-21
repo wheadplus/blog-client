@@ -19,7 +19,7 @@ export default {
     created(){
       //console.log(this.$route.params.blogId) 
       blog.getDetail({ blogId: this.$route.params.blogId }).then(res => {
-        console.log(res.data)
+        //console.log(res.data)
         this.title = res.data.title
         this.content  = res.data.content
         this.description = res.data.description
