@@ -3,7 +3,7 @@ import { Message } from 'element-ui'
 
 //axios默认请求类型,URL,跨域是否请求cookies
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
-axios.defaults.baseURL = 'http://blog-server.hunger-valley.com'
+axios.defaults.baseURL = 'https://blog-server.hunger-valley.com'
 axios.defaults.withCredentials = true
 
 //封装axios,返回Promise
