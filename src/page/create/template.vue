@@ -6,10 +6,10 @@
     <el-input v-model="title"></el-input>
     <p class="msg">限30个字</p>
     <h3>内容简介</h3>
-    <el-input type="textarea" :autosize="{ minRows: 5, maxRows: 10}" v-model="content"></el-input>
+    <el-input type="textarea" :rows="5" v-model="content"></el-input>
     <p class="msg">限200个字</p>
     <h3>文章内容</h3>
-    <el-input type="textarea" :autosize="{ minRows: 10, maxRows: 20}" v-model="description"></el-input>
+    <el-input type="textarea" :rows="20" v-model="description"></el-input>
     <p class="msg">限10000个字</p>
     <div class="index">是否展示在首页<el-switch
       v-model="atIndex"

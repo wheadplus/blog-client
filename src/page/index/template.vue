@@ -3,7 +3,8 @@
     <section class="blog-posts">
       <div class="item" v-for="blog in blogs">
         <figure class="avatar">
-          <img :src="blog.user.avatar" :alt="blog.title">
+          <router-link :to="`/user/${blog.user.id}`"><img :src="blog.user.avatar" :alt="blog.title"></router-link>
+          
           <figcaption>{{blog.user.username}}</figcaption> 
         </figure>
         <router-link :to="`/detail/${blog.id}`">

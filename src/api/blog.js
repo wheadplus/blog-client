@@ -34,7 +34,7 @@ export default {
   },
 
   createBlog({ title = '', content = '', description = '', atIndex = false} = { title: '', content: '', description: '', atIndex: false}) {
-    return request(URL.CREATE, 'POST', { title, content, description, atIndex })
+    return request(URL.CREATE, 'POST', { title,  description, content ,atIndex })
   }
 
 }
