@@ -1,6 +1,6 @@
 <template>
   <div id="foot">
-    <a href="">github@ headplus 2018</a>
+    <a href="https://github.com/wheadplus">github@ headplus 2018</a>
   </div>
 </template>
 
