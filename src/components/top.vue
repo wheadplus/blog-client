@@ -2,7 +2,7 @@
   <div id="top" :class="{login: isLogin,'no-login': !isLogin}">
       
         <template v-if="!isLogin">
-          <h1>LET'S SHARE</h1>
+          <h1><router-link to="/">LET'S SHARE</router-link></h1>
           <p>精品博客汇聚</p> 
           <div class="btns">
             <router-link to="/login"><el-button>立即登录</el-button></router-link>
@@ -15,10 +15,10 @@
           <router-link to="/create"><i class="edit el-icon-edit"></i></router-link>
           
           <div class="user">
-            <img class="avatar" src="http://cn.gravatar.com/avatar/1?s=128&d=identicon" alt="" title="">
+            <img class="avatar" :src="user.avatar" alt=":user.username">
             <ul>
               <li><router-link to="/my">我的</router-link></li>
-              <li><a href="#" @click="onLogout">注销</a></li>
+              <li><a @click="onLogout">注销</a></li>
             </ul>
           </div>      
         </template>
