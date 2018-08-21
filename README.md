@@ -2,7 +2,7 @@
 
 > vue-blog 本项目实现一个博客分享网站。为用户提供查看，修改，新建博客的功能。
 
-# ！[在线地址](https://wheadplus.github.io/vue-blog/dist/#/login)
+# [在线地址](https://wheadplus.github.io/vue-blog/dist/)
 
 ![项目介绍](https://i.loli.net/2018/08/09/5b6bfd88b03f7.gif)
 
